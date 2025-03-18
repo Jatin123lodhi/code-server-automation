@@ -1,0 +1,6 @@
+docker exec -it my-code-container node /home/coder/workspace/index.js
+
+docker run -d --name my-code-container `
+  -p 8080:8080 `
+  -v ${PWD}/workspace:/home/coder/workspace `
+  my-code-server
