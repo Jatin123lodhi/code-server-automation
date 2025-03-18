@@ -20,4 +20,6 @@ docker run -d --name my-code-container -p 8080:8080 -v ${PWD}/workspace:/home/co
 ## Features
 - Real-time code updates through volume mounting
 - Automated file focus and code display
-- Interactive development environment 
+- Interactive development environment
+## Video Explanation -
+https://drive.google.com/file/d/1Ay4J6eX_CVM0i5VB3tguQU2C_Xt59iWS/view?usp=sharing
